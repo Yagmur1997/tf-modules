@@ -13,5 +13,10 @@ variable "project_id" {
   default = "bucket`s project id"
 }
 
+variable "level_access" {
+  type    = string
+  default = "bucket`s level access"
+}
+
 
 
