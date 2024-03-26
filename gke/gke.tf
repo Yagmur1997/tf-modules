@@ -7,6 +7,7 @@ resource "google_container_cluster" "primary" {
   name               = var.cluster_name
   location           = var.cluster_location
   initial_node_count = var.initial_node_count
+  deletion_protection = false
 
   node_config {
     disk_size_gb = var.disk_size_gb
