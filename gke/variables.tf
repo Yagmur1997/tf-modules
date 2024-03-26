@@ -24,7 +24,7 @@ variable "initial_node_count" {
 
 variable "disk_size_gb" {
   type    = number
-  default = 60
+  default = 50
 }
 
 variable "project_id" {
